@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "jsx": "react",
+    "emitDecoratorMetadata": true,
+    "downlevelIteration": true,
+    "types": ["reflect-metadata", "jest" , "styled-components-react-native" ],
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.ts"
+  ],
+  "extends": "expo/tsconfig.base"
+}

@@ -1,0 +1,20 @@
+export enum ObjectPropertyType {
+    String='String',
+    Boolean='Boolean',
+    DateTime='DateTime',
+    Duration='Duration',
+    Decimal='Decimal',
+    Integer='Integer',
+    Double='Double',
+    ComplexProperty='ComplexProperty',
+    Guid='Guid',
+    AccountProperty='AccountProperty',
+    ImageProperty='ImageProperty',
+    UriProperty='UriProperty',
+    RoleProperty='RoleProperty',
+    OrganizationalUnit='OrganizationalUnit',
+    DocumentProperty='DocumentProperty',
+    InstanceProperty='InstanceProperty',
+    Conversation='Conversation',
+    EnumProperty='EnumProperty'
+};
